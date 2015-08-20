@@ -26,7 +26,6 @@
     </s:layout>
 
     <s:TextInput text="@{text}"/>
-    <s:TextInput/>
 
     <s:Button label="Copy" click="button1_clickHandler(event)"/>
 </s:View>
