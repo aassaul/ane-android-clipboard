@@ -1,0 +1,15 @@
+<extension xmlns="http://ns.adobe.com/air/extension/18.0"> 
+    <id>com.trembit.extension.AndroidClipboard</id>
+    <versionNumber>0.1.1</versionNumber>
+    <platforms> 
+    	<platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libAndroidClipboard.jar</nativeLibrary>
+                <initializer>com.trembit.androidClipboard.api.AndroidClipboardFREExtension</initializer>
+            </applicationDeployment>
+        </platform>
+        <platform name="default">
+            <applicationDeployment/> 
+        </platform>
+    </platforms> 
+</extension>

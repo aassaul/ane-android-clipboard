@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ASAndroidClipboard/ASAndroidClipboard.iml" filepath="$PROJECT_DIR$/ASAndroidClipboard/ASAndroidClipboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ASTestMobile/ASTestMobile.iml" filepath="$PROJECT_DIR$/ASTestMobile/ASTestMobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAndroidClipboard/JavaAndroidClipboard.iml" filepath="$PROJECT_DIR$/JavaAndroidClipboard/JavaAndroidClipboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Root.iml" filepath="$PROJECT_DIR$/Root.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+ Created with IntelliJ IDEA.
+ User: Andrey Assaul
+ Date: 20.08.2015
+ Time: 20:45
+-->
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark">
+
+    <fx:Script><![CDATA[
+        import com.trembit.androidClipboard.AndroidClipboard;
+
+        import mx.events.FlexEvent;
+
+        [Bindable]
+        private var text:String;
+
+        private var androidClipboard:AndroidClipboard = new AndroidClipboard();
+
+        private function button1_clickHandler(event:MouseEvent):void {
+            androidClipboard.putToClipboard(text);
+        }
+        ]]></fx:Script>
+    <s:layout>
+        <s:VerticalLayout/>
+    </s:layout>
+
+    <s:TextInput text="@{text}"/>
+    <s:TextInput/>
+
+    <s:Button label="Copy" click="button1_clickHandler(event)"/>
+</s:View>
